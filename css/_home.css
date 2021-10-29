@@ -1,0 +1,25 @@
+.box-container {
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  background: var(--secondary-product-colour);
+}
+.box--border {
+  border: 2px solid var(--primary-colour);
+  background: white;
+}
+
+.box-special {
+  background: var(--primary-colour);
+}
+
+h2 {
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+.navbar-light .navbar-nav .active > .nav-link {
+  color: var(--primary-colour) !important;
+}
+nav {
+  background: var(--nav-colour) !important;
+}
